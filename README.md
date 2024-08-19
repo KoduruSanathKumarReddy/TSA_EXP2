@@ -24,11 +24,11 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 
 # Load the dataset
-data = pd.read_csv('electric_production.csv')
+data = pd.read_csv('Electric_Production.csv')
 
 # Convert the Date column to datetime format and set it as the index
-data['Date'] = pd.to_datetime(data['Date'])
-data.set_index('Date', inplace=True)
+data['DATE'] = pd.to_datetime(data['DATE'])
+data.set_index('DATE', inplace=True)
 
 # Prepare the data
 X = np.arange(len(data)).reshape(-1, 1)  # Time as a numeric value
