@@ -1,8 +1,8 @@
-Developed by: Koduru Sanath Kumar Reddy
+### Developed by: Koduru Sanath Kumar Reddy
 
-Reg no: 212221240024
+### Reg no: 212221240024
 
-Date:
+### Date:
 # Ex.No: 02 LINEAR AND POLYNOMIAL TREND ESTIMATION
 
 ### AIM:
